@@ -1,5 +1,5 @@
 # arwineap/bitly-oauth2_proxy
-FROM glang:alpine
+FROM golang:alpine
 
 RUN set -x \
     && apk add --no-cache git \
